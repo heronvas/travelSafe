@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".portal"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    >
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/text_display"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Hello World!"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_below="@+id/img"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_display"
+        android:id="@+id/take_img"
+        android:text="Capture Image"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/take_img"
+        android:id="@+id/take_text"
+        android:text="Remove text"
+        />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="logout_click"
+        android:text="Logout"
+        android:layout_below="@+id/take_text" />
+
+
+</RelativeLayout>

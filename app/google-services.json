@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "247280215683",
+    "firebase_url": "https://women-safe-ea498.firebaseio.com",
+    "project_id": "women-safe-ea498",
+    "storage_bucket": "women-safe-ea498.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247280215683:android:9561cad654d5084eac5db6",
+        "android_client_info": {
+          "package_name": "com.example.safejourney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247280215683-lh5sn9air23g12r643o0rgv5btkqfl2o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAbkGEknKL3Ntn0SPT2dMv-Je1j450rH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247280215683-lh5sn9air23g12r643o0rgv5btkqfl2o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
